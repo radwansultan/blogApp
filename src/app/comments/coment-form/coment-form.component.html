@@ -1,1 +1,26 @@
-<p>coment-form works!</p>
+<div
+  style="
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin-bottom: 16px;
+  "
+>
+  <h4>Leave a Comment</h4>
+  <div style="display: flex; flex-direction: column; margin-bottom: 16px">
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name" style="padding: 10px" />
+  </div>
+  <div style="display: flex; flex-direction: column; margin-bottom: 16px">
+    <label>Comment</label>
+    <textarea
+      placeholder="Add your comment here"
+      style="padding: 10px"
+    ></textarea>
+  </div>
+  <div style="display: flex">
+    <button class="btn btn-secondary">Add a Comment</button>
+  </div>
+</div>

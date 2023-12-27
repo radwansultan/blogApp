@@ -1,1 +1,57 @@
-<p>single-post works!</p>
+<div style="display: flex; flex-direction: column; align-items: stretch">
+  <div
+    style="display: flex; justify-content: center; width: 100%; height: 400px"
+  >
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVNJri-Xr-Nn4qaIBekRkxFAsH7Wt8dCPbQ&usqp=CAU"
+      alt="post-image"
+      style="width: 400px; object-fit: cover"
+    />
+  </div>
+  <div
+    style="display: flex; justify-content: center; gap: 16px; margin-top: 16px"
+  >
+    <span class="text-danger">#Tag1</span>
+    <span class="text-success">#Tag2</span>
+    <span class="text-info">#Tag3</span>
+    <span class="text-warning">#Tag4</span>
+  </div>
+  <div style="display: flex; margin-top: 20px">
+    <div style="display: flex; flex-direction: column; padding-right: 40px">
+      <div>
+        <h2>How to start a blog</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,
+          voluptatem voluptates consequuntur recusandae consectetur, quos
+          aspernatur quo neque quibusdam ea dolore culpa eius, alias doloribus
+          mollitia. Dolorum id error voluptates! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Tempora, voluptatem voluptates
+          consequuntur recusandae consectetur, quos aspernatur quo neque
+          quibusdam ea dolore culpa eius, alias doloribus mollitia. Dolorum id
+          error voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Tempora, voluptatem voluptates consequuntur recusandae
+          consectetur, quos aspernatur quo neque quibusdam ea dolore culpa eius,
+          alias doloribus mollitia. Dolorum id error voluptates!
+        </p>
+      </div>
+      <app-coment-form></app-coment-form>
+      <div style="display: flex">
+        <h4>Comments(15,234)</h4>
+      </div>
+      <app-comment-list></app-comment-list>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        width: 250px;
+      "
+    >
+      <app-post-card></app-post-card>
+      <app-post-card></app-post-card>
+      <app-post-card></app-post-card>
+    </div>
+  </div>
+</div>

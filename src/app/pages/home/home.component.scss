@@ -1,0 +1,14 @@
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.posts {
+  background-color: var(--secondary-color);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
